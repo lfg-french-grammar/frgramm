@@ -1,0 +1,629 @@
+# SENTENCE_ID: 001
+
+Cette campagne électorale est très importante. (1 0.02 20)
+
+# SENTENCE_ID: 002
+
+Cette dame est dans la chambre. (1 0.01 24)
+
+# SENTENCE_ID: 003
+
+Des chevaliers passent. (1 0.00 23)
+
+# SENTENCE_ID: 004
+
+Elle cherche le chevalier. (1 0.01 27)
+
+# SENTENCE_ID: 005
+
+Il cherche le chevalier. (1 0.01 27)
+
+# SENTENCE_ID: 006
+
+Il est attendu par la dame. (1 0.00 33)
+
+# SENTENCE_ID: 007
+
+Il passe des chevaliers. (1 0.01 34)
+
+# SENTENCE_ID: 008
+
+Il passe. (1 0.00 21)
+
+# SENTENCE_ID: 009
+
+Il pleut. (1 0.01 8)
+
+# SENTENCE_ID: 010
+
+Ils cherchent le chevalier. (1 0.00 25)
+
+# SENTENCE_ID: 011
+
+Je cherche la fée. (1 0.00 27)
+
+# SENTENCE_ID: 012
+
+Je répète la nouvelle. (1 0.02 27)
+
+# SENTENCE_ID: 013
+
+La bague est donnée à la dame par la fée. (1 0.00 72)
+
+# SENTENCE_ID: 014
+
+La belle dame donne son gant au chevalier. (1 0.01 43)
+
+# SENTENCE_ID: 015
+
+La dame a commencé à danser. (1 0.00 36)
+
+# SENTENCE_ID: 016
+
+La dame a épelé le nom. (1 0.00 43)
+
+# SENTENCE_ID: 017
+
+La dame a été aimable. (1 0.00 18)
+
+# SENTENCE_ID: 018
+
+La dame a été forcée à achever la tâche par la reine. (1 0.01 85)
+
+# SENTENCE_ID: 019
+
+La dame a été forcée à achever la tâche. (1 0.01 61)
+
+# SENTENCE_ID: 020
+
+La dame a été priée de danser. (1 0.00 55)
+
+# SENTENCE_ID: 021
+
+La dame cesse de pleurer. (1 0.00 39)
+
+# SENTENCE_ID: 022
+
+La dame commence à danser. (1 0.00 39)
+
+# SENTENCE_ID: 023
+
+La dame continue à être invitée à danser. (1 0.02 74)
+
+# SENTENCE_ID: 024
+
+La dame demande les joyaux à la reine. (1 0.01 44)
+
+# SENTENCE_ID: 025
+
+La dame donne son foulard au chevalier. (1 0.00 40)
+
+# SENTENCE_ID: 026
+
+La dame donne son foulard. (1 0.01 31)
+
+# SENTENCE_ID: 027
+
+La dame est forcée à achever la tâche. (1 0.00 60)
+
+# SENTENCE_ID: 028
+
+La dame implore le chevalier de chanter dans le château. (2 0.02 63)
+
+# SENTENCE_ID: 029
+
+La dame invite le chevalier à chanter dans le château. (2 0.01 63)
+
+# SENTENCE_ID: 030
+
+La dame pousse le chevalier à chanter dans le château. (2 0.00 63)
+
+# SENTENCE_ID: 031
+
+La dame prie le chevalier de chanter dans le château. (2 0.01 63)
+
+# SENTENCE_ID: 032
+
+La dame veut être invitée à danser. (1 0.01 60)
+
+# SENTENCE_ID: 033
+
+La dame épelait le nom. (1 0.00 27)
+
+# SENTENCE_ID: 034
+
+La dame épelle le nom. (1 0.00 31)
+
+# SENTENCE_ID: 035
+
+La fée a dansé. (1 0.01 22)
+
+# SENTENCE_ID: 036
+
+La fée a mangé. (1 0.00 37)
+
+# SENTENCE_ID: 037
+
+La fée attend ces chevaliers. (1 0.01 18)
+
+# SENTENCE_ID: 038
+
+La fée attend un chevalier très vaillant. (1 0.00 23)
+
+# SENTENCE_ID: 039
+
+La fée attend un très vaillant chevalier. (1 0.00 23)
+
+# SENTENCE_ID: 040
+
+La fée attend. (1 0.01 12)
+
+# SENTENCE_ID: 041
+
+La fée croit pouvoir entendre chanter le rossignol. (1 0.00 32)
+
+# SENTENCE_ID: 042
+
+La fée demande au chevalier de combattre le géant. (1 0.01 47)
+
+# SENTENCE_ID: 043
+
+La fée demande au chevalier si la reine veut que la dame sache que le nain est méchant. (1 0.01 74)
+
+# SENTENCE_ID: 044
+
+La fée demande au nain si la reine veut que la dame sache que le géant est dans la forêt habitée par les chevaliers. (1 0.01 200)
+
+# SENTENCE_ID: 045
+
+La fée demande à voir le chevalier. (1 0.02 40)
+
+# SENTENCE_ID: 046
+
+La fée demande à être invitée à danser. (1 0.01 74)
+
+# SENTENCE_ID: 047
+
+La fée entend chanter le rossignol. (1 0.00 26)
+
+# SENTENCE_ID: 048
+
+La fée est aimable. (1 0.00 15)
+
+# SENTENCE_ID: 049
+
+La fée est arrivée. (1 0.01 31)
+
+# SENTENCE_ID: 050
+
+La fée est attendue par le chevalier. (1 0.00 43)
+
+# SENTENCE_ID: 051
+
+La fée est attendue. (1 0.02 26)
+
+# SENTENCE_ID: 052
+
+La fée est cherchée. (1 0.00 40)
+
+# SENTENCE_ID: 053
+
+La fée est mangée. (1 0.01 40)
+
+# SENTENCE_ID: 054
+
+La fée exige de voir le chevalier. (1 0.00 40)
+
+# SENTENCE_ID: 055
+
+La fée mange la pêche. (1 0.01 31)
+
+# SENTENCE_ID: 056
+
+La fée mangeait la pêche. (1 0.00 27)
+
+# SENTENCE_ID: 057
+
+La fée pèle la pêche. (1 0.01 31)
+
+# SENTENCE_ID: 058
+
+La fée raconte des histoires anciennes dans un ancien couvent. (1 0.01 47)
+
+# SENTENCE_ID: 059
+
+La fée regarde le château acheté au chevalier par la reine. (1 0.01 83)
+
+# SENTENCE_ID: 060
+
+La fée regarde le château acheté au chevalier. (1 0.01 68)
+
+# SENTENCE_ID: 061
+
+La fée regarde le château acheté par la reine. (1 0.00 72)
+
+# SENTENCE_ID: 062
+
+La fée regarde le château acheté. (1 0.02 53)
+
+# SENTENCE_ID: 063
+
+La fée sait que le nain est méchant. (1 0.00 28)
+
+# SENTENCE_ID: 064
+
+La fée semble aimable. (1 0.01 28)
+
+# SENTENCE_ID: 065
+
+La fée veut attendre le chevalier. (1 0.00 21)
+
+# SENTENCE_ID: 066
+
+La fée veut que le chevalier sache que le nain est méchant. (1 0.01 41)
+
+# SENTENCE_ID: 067
+
+La fée voit passer le chevalier. (1 0.00 26)
+
+# SENTENCE_ID: 068
+
+La pêche a continué à être mangée. (1 0.02 64)
+
+# SENTENCE_ID: 069
+
+La pêche est mangée par la dame. (1 0.01 57)
+
+# SENTENCE_ID: 070
+
+La pêche est mangée. (1 0.00 40)
+
+# SENTENCE_ID: 071
+
+La reine a forcé la dame à achever la tâche. (1 0.01 63)
+
+# SENTENCE_ID: 072
+
+La reine a forcé le chevalier à achever la tâche. (1 0.00 63)
+
+# SENTENCE_ID: 073
+
+La reine a forcé les chevaliers à achever la tâche. (1 0.01 63)
+
+# SENTENCE_ID: 074
+
+La reine a forcé les dames à achever la tâche. (1 0.02 63)
+
+# SENTENCE_ID: 075
+
+La reine a ordonné aux chevaliers de danser. (1 0.00 43)
+
+# SENTENCE_ID: 076
+
+La reine a ordonné à la dame de danser. (1 0.01 47)
+
+# SENTENCE_ID: 077
+
+La reine achète le château au chevalier. (1 0.00 40)
+
+# SENTENCE_ID: 078
+
+La reine achète le château. (1 0.01 31)
+
+# SENTENCE_ID: 079
+
+La reine demanda que nous morcelassions la terre. (1 0.01 45)
+
+# SENTENCE_ID: 080
+
+La reine demande que la fée attende le chevalier. (1 0.01 44)
+
+# SENTENCE_ID: 081
+
+La reine défend à la dame de regarder les joyaux. (1 0.00 43)
+
+# SENTENCE_ID: 082
+
+La reine exige que la fée attende le chevalier. (1 0.01 44)
+
+# SENTENCE_ID: 083
+
+La reine força le chevalier à achever la tâche. (1 0.00 47)
+
+# SENTENCE_ID: 084
+
+La reine morcèle la terre. (1 0.00 31)
+
+# SENTENCE_ID: 085
+
+La reine ordonne aux chevaliers de danser. (1 0.01 46)
+
+# SENTENCE_ID: 086
+
+La reine ordonne à la dame de danser. (1 0.01 50)
+
+# SENTENCE_ID: 087
+
+La reine permet que la fée attende le chevalier. (1 0.00 31)
+
+# SENTENCE_ID: 088
+
+La reine permet à la dame de regarder les joyaux. (1 0.01 43)
+
+# SENTENCE_ID: 089
+
+La reine prie la dame de chanter dans les anciens châteaux blancs habités par des fées. (2 0.01 120)
+
+# SENTENCE_ID: 090
+
+La reine prie la dame de chanter dans les châteaux habités par des fées. (2 0.02 114)
+
+# SENTENCE_ID: 091
+
+La reine sait si la fée arrive. (1 0.00 38)
+
+# SENTENCE_ID: 092
+
+Le chevalier a attendu. (1 0.00 23)
+
+# SENTENCE_ID: 093
+
+Le chevalier a dansé. (1 0.00 22)
+
+# SENTENCE_ID: 094
+
+Le chevalier a forcé la fée à achever la tâche. (1 0.01 63)
+
+# SENTENCE_ID: 095
+
+Le chevalier a forcé la fée à être aimable. (1 0.01 55)
+
+# SENTENCE_ID: 096
+
+Le chevalier a mangé la pêche. (1 0.01 43)
+
+# SENTENCE_ID: 097
+
+Le chevalier a mangé. (1 0.01 37)
+
+# SENTENCE_ID: 098
+
+Le chevalier a été forcé par la reine à achever la tâche. (1 0.00 77)
+
+# SENTENCE_ID: 099
+
+Le chevalier a été forcé à achever la tâche par la reine. (1 0.01 90)
+
+# SENTENCE_ID: 0100
+
+Le chevalier a été forcé à achever la tâche. (1 0.01 66)
+
+# SENTENCE_ID: 0101
+
+Le chevalier a été prié de commencer à chanter. (1 0.02 74)
+
+# SENTENCE_ID: 0102
+
+Le chevalier annonce la fée. (1 0.00 31)
+
+# SENTENCE_ID: 0103
+
+Le chevalier attend dans le château. (1 0.01 22)
+
+# SENTENCE_ID: 0104
+
+Le chevalier attend la belle vaillante dame blanche aimable. (1 0.00 30)
+
+# SENTENCE_ID: 0105
+
+Le chevalier blanc arrive. (1 0.00 28)
+
+# SENTENCE_ID: 0106
+
+Le chevalier cherche la belle fée. (1 0.01 34)
+
+# SENTENCE_ID: 0107
+
+Le chevalier cherche la fée. (1 0.00 31)
+
+# SENTENCE_ID: 0108
+
+Le chevalier croit voir la fée. (1 0.01 21)
+
+# SENTENCE_ID: 0109
+
+Le chevalier demande que nous pelions la pêche. (1 0.00 51)
+
+# SENTENCE_ID: 0110
+
+Le chevalier demande à la reine si la fée arrive. (1 0.01 62)
+
+# SENTENCE_ID: 0111
+
+Le chevalier donne sa chemise à la dame. (1 0.00 44)
+
+# SENTENCE_ID: 0112
+
+Le chevalier donne ses livres à la belle dame. (1 0.00 47)
+
+# SENTENCE_ID: 0113
+
+Le chevalier donne son foulard à la dame. (1 0.02 44)
+
+# SENTENCE_ID: 0114
+
+Le chevalier dépend de la dame. (1 0.00 25)
+
+# SENTENCE_ID: 0115
+
+Le chevalier est arrivé. (1 0.01 33)
+
+# SENTENCE_ID: 0116
+
+Le chevalier est attendu. (1 0.00 26)
+
+# SENTENCE_ID: 0117
+
+Le chevalier est cherché. (1 0.00 43)
+
+# SENTENCE_ID: 0118
+
+Le chevalier est forcé à achever la tâche par la reine. (1 0.00 87)
+
+# SENTENCE_ID: 0119
+
+Le chevalier est forcé à achever la tâche. (1 0.02 63)
+
+# SENTENCE_ID: 0120
+
+Le chevalier est mangé. (1 0.01 43)
+
+# SENTENCE_ID: 0121
+
+Le chevalier passe. (1 0.00 25)
+
+# SENTENCE_ID: 0122
+
+Le chevalier regarde la forêt habitée par les fées. (1 0.01 67)
+
+# SENTENCE_ID: 0123
+
+Le chevalier regarde le château blanc habité par la reine. (1 0.00 75)
+
+# SENTENCE_ID: 0124
+
+Le chevalier rencontre le nain dans un bois. (1 0.01 28)
+
+# SENTENCE_ID: 0125
+
+Le chevalier vaillant arrive. (1 0.00 28)
+
+# SENTENCE_ID: 0126
+
+Le chevalier veut que la fée attende. (1 0.01 25)
+
+# SENTENCE_ID: 0127
+
+Le château est acheté au chevalier par la reine. (1 0.00 71)
+
+# SENTENCE_ID: 0128
+
+Le château est acheté au chevalier. (1 0.00 56)
+
+# SENTENCE_ID: 0129
+
+Le château est ancien. (2 0.00 15)
+
+# SENTENCE_ID: 0130
+
+Le nom a été épelé. (1 0.00 46)
+
+# SENTENCE_ID: 0131
+
+Le nom est épelé par la dame. (1 0.02 60)
+
+# SENTENCE_ID: 0132
+
+Le nom est épelé. (1 0.00 43)
+
+# SENTENCE_ID: 0133
+
+Le prétendu chevalier blanc arrive. (1 0.01 31)
+
+# SENTENCE_ID: 0134
+
+Le vaillant chevalier arrive. (1 0.00 28)
+
+# SENTENCE_ID: 0135
+
+Les bagues sont données à la dame. (1 0.01 57)
+
+# SENTENCE_ID: 0136
+
+Les chevaliers achèvent la tâche. (1 0.00 29)
+
+# SENTENCE_ID: 0137
+
+Les chevaliers ont été forcés par la reine à achever la tâche. (1 0.01 72)
+
+# SENTENCE_ID: 0138
+
+Les chevaliers ont été forcés à achever la tâche. (1 0.01 61)
+
+# SENTENCE_ID: 0139
+
+Les chevaliers ont été forcés à inviter les dames à danser. (1 0.00 75)
+
+# SENTENCE_ID: 0140
+
+Les chevaliers ont été priés de forcer les dames à danser. (1 0.01 75)
+
+# SENTENCE_ID: 0141
+
+Les chevaliers sont forcés à inviter les dames à danser. (1 0.02 74)
+
+# SENTENCE_ID: 0142
+
+Les chevaliers sont priés de forcer les dames à danser. (1 0.01 74)
+
+# SENTENCE_ID: 0143
+
+Les dames demanderont que nous morcelions la terre. (1 0.00 47)
+
+# SENTENCE_ID: 0144
+
+Les dames morcèleront la terre. (1 0.01 27)
+
+# SENTENCE_ID: 0145
+
+Les dames ont été forcées à achever la tâche. (1 0.00 61)
+
+# SENTENCE_ID: 0146
+
+Les dames ont été priées de danser. (1 0.01 55)
+
+# SENTENCE_ID: 0147
+
+Les fées sont arrivées. (1 0.01 31)
+
+# SENTENCE_ID: 0148
+
+Les nouvelles sont annoncées à la dame. (1 0.01 57)
+
+# SENTENCE_ID: 0149
+
+Nous achevons le repas. (1 0.00 23)
+
+# SENTENCE_ID: 0150
+
+Nous annonçons au chevalier que nous mangeons dans le château. (2 0.01 58)
+
+# SENTENCE_ID: 0151
+
+Nous cherchons le chevalier. (1 0.00 23)
+
+# SENTENCE_ID: 0152
+
+Nous mangeons la pêche. (1 0.01 23)
+
+# SENTENCE_ID: 0153
+
+Nous morcelons la terre. (1 0.01 23)
+
+# SENTENCE_ID: 0154
+
+Tu cherches le chevalier. (1 0.00 25)
+
+# SENTENCE_ID: 0155
+
+Tu pèles la pêche. (1 0.00 25)
+
+# SENTENCE_ID: 0156
+
+Vous cherchez le chevalier. (1 0.00 23)
+
+# SENTENCE_ID: 0157
+
+Vous répétez la nouvelle. (1 0.01 23)
+
+# 157 sentences, 1.00 CPU secs total, 0.02 CPU secs max (03/29/16)

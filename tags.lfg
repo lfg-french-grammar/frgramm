@@ -1,0 +1,49 @@
+BASIC FRENCH LEXICON (1.0)
+
++V 	  V_SFX XLE
+	  "@(DEFAULT AUX AVOIR)".
+
++PRS 	  V_SFX XLE @PRS
+		    @IND.
+
++SBJP 	  V_SFX XLE @PRS
+		    @SBJV.
+
++SBJI 	  V_SFX XLE @IMPF
+		    @SBJV.
+
++IMPF 	  V_SFX XLE @IMPF
+		    @IND.
+
++PST 	  V_SFX XLE @PST
+		    @IND.
+
++FUT 	  V_SFX XLE @FUT
+		    @IND.
+
++INF 	  V_SFX XLE @INF.
+
++PTPST 	  V_SFX XLE @PPAST "(^ UNACC) = -".
+
++PTPASS   V_SFX XLE @PASS.
+
++UNACC 	  V_SFX XLE (^ UNACC) =c +.
+
++UNERG 	  V_SFX XLE (^ UNACC) = -.
+
+
++1 	  V_SFX XLE (^ SUBJ PERS) = 1.
+
++2 	  V_SFX XLE (^ SUBJ PERS) =2.
+
++3 	  V_SFX XLE (^ SUBJ PERS) =3.
+
++F 	  V_SFX XLE (^ SUBJ GEN) =FEM.
+
++M 	  V_SFX XLE (^ SUBJ GEN) =MAS.
+
++SG 	  V_SFX XLE (^ SUBJ NUM) =SG.
+
++PL	  V_SFX XLE (^ SUBJ NUM) =PL.
+
+----

@@ -1,0 +1,58 @@
+BASIC   FRENCH   RULES (1.0)
+
+   IO = PP: (^ OBJ2)=! (! CASE)=c À.
+   DO = NP: (^ OBJ)=!.
+   VP = { VPv | VPaux}.
+   IC = VP: (^ XCOMP)=!.
+   ADJ-PP = PP: ! $ (^ ADJ) (! SUBJ PRED)='PRO' (! SUBJ PRON_TYPE)=IMPLICIT.
+   PRED-AP = AP: (^ XCOMP)=! (! ATYPE)=PREDIC.
+   PROP = CP: { (^ XCOMP)=! | (^ COMP)=!}.
+   COMPL-PP = PP: (^ XCOMP)=!.
+   OBL-PP = PP"#1#2": (^ OBL)=!.
+   SUBJ_ = { NP: (^ SUBJ)=! | CL: (^ SUBJ)=! (! CASE)=NOM } .
+
+
+   "R0" Root --> S: (^ MOOD) = IND ; PUNCT. 
+
+   "R1"   S --> (SUBJ_) VP: (^ TENSE).
+
+   "R2" VPv --> V { DO IO
+ 	| DO 
+ 	| IO
+ 	| IO OBL-PP
+ 	| COMPL-PP
+ 	| OBL-PP
+ 	| PRED-AP
+ 	| IC DO
+ 	| IC 
+ 	| DO PROP
+ 	| IO PROP
+	| OBL-PP PROP
+	| PROP OBL-PP
+ 	| PROP}#0#1 (ADJ-PP).
+
+  "R3" VPaux --> Aux VP.
+
+   "R4" N' --> AP*: ! $ (^ ADJ) 
+		    (! POSITION)=PRENOM
+		    (! ATYPE)=ATTRIB
+		    ^ = (! SUBJ);
+ 	  N: ^=! (^ PERS)=3;
+ 	  AP*: ! $ (^ ADJ)
+	       (! POSITION)=POSTNOM
+	       (! ATYPE)=ATTRIB
+	       ^ = (! SUBJ);
+	       VPv#0#1: ! $ (^ ADJ)
+	       ^ = (! SUBJ)
+	       (! PASSIVE) =c +.
+
+   "R5" CP --> C {VP | S}. 
+
+   "R6" NP --> D N'.	
+
+   "R7"	  AP --> (DEG) A.
+
+   "R8"   PP --> {P NP: (^ OBJ)=! | PA N: (^ OBJ)=! | PA N | P NP}.
+
+   
+----

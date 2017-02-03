@@ -1,0 +1,18 @@
+BASIC FRENCH LEXICON (1.0)
+
+des 	  D * (^ NUM)=PL
+	      (^ SPEC)=INDEF;
+	  PA * (^ CASE)=DE
+	       (^ SPEC)=INDEF
+	       (^ NUM)=PL.
+
+à 	  P * (^ CASE)=À; 
+	  C * (^ CFORM)=À
+	      (^ VFORM) =c INF. "it seems that this can be dispensed with; NO: only if CP XCOMP is not marked with INF"
+
+de 	  P * (^ CASE)=DE;
+	  C * (^ CFORM)=DE
+	      (^ VFORM) =c INF.
+
+
+----

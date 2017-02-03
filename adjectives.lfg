@@ -1,0 +1,124 @@
+BASIC FRENCH LEXICON (1.0)
+
+bleu 	  A * @(A BLEU MAS SG)
+	      @COL.
+
+paternel  A * @(REL PATERNEL MAS SG).
+
+français  A * @(A BLEU MAS SG)
+	      @GEO.
+
+anciens   A * @(AMB EHEMALIG ALT)
+	      @(A ANCIEN MAS PL).
+
+aimable   A * (^ PRED)='AIMABLE<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG.
+
+aimables  A * (^ PRED)='AIMABLE<(^ SUBJ)>'
+	      (^ SUBJ NUM)=PL.
+
+fidèle   A * (^ PRED)='FIDÈLE<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+méchant   A * (^ PRED)='MÉCHANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+méchante   A * (^ PRED)='MÉCHANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+méchants   A * (^ PRED)='MÉCHANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+méchantes   A * (^ PRED)='MÉCHANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+vaillant   A * (^ PRED)='VAILLANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+vaillante   A * (^ PRED)='VAILLANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+vaillants   A * (^ PRED)='VAILLANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+vaillantes   A * (^ PRED)='VAILLANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+importante   A * (^ PRED)='IMPORTANT<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+prétendu  A * (^ PRED)='PRÉTENDU<(^ SUBJ)>'
+	      (^ POSITION)=PRENOM
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+propre 	  A * (^ PRED)='PROPRE<(^ SUBJ)>'
+	      { (^ POSITION)=PRENOM
+		(^ GLOSS)='OWN' |
+		(^ POSITION=POSTNOM
+		(^ GLOSS)='CLEAN'}
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+ancien 	  A * (^ PRED)='ANCIEN<(^ SUBJ)>'
+	      { @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=PRENOM)
+		(^ GLOSS TRANS DEU)=EHEMALIG |
+		@(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+		(^ GLOSS TRANS DEU)=ALT}
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+anciennes A * (^ PRED)='ANCIEN<(^ SUBJ)>'
+	      { @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=PRENOM)
+		(^ GLOSS TRANS DEU)=EHEMALIG |
+		@(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+		(^ GLOSS TRANS DEU)=ALT}
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+
+électorale A * (^ PRED)='ÉLECTORAL<(^ SUBJ)>'
+	       (^ ATYPE)=ATTRIB 
+	       (^ POSITION)=POSTNOM
+	       (^ SUBJ GEN)=FEM
+	       (^ SUBJ NUM)=SG.
+
+blanc 	  A * (^ PRED)='BLANC<(^ SUBJ)>'
+	      (^ POSITION)=POSTNOM
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+blanche   A * (^ PRED)='BLANC<(^ SUBJ)>'
+	      @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+blancs 	  A * (^ PRED)='BLANC<(^ SUBJ)>'
+	      (^ POSITION)=POSTNOM
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+blanches  A * (^ PRED)='BLANC<(^ SUBJ)>'
+	      (^ POSITION)=POSTNOM
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+belle 	  A * (^ PRED)='BEAU<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+belles 	  A * (^ PRED)='BEAU<(^ SUBJ)>'
+	      (^ SUBJ NUM)=PL.
+
+
+----

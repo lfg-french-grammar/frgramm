@@ -1,0 +1,51 @@
+BASIC FRENCH LEXICON (1.0)
+
+
+une 	  D * (^ GEN)=FEM 
+	      (^ NUM)=SG
+	      (^ SPEC)=INDEF.
+
+un 	  D * (^ GEN)=MAS 
+	      (^ NUM)=SG
+	      (^ SPEC)=INDEF.
+
+la 	  D * (^ GEN)=FEM 
+	      (^ NUM)=SG
+	      (^ SPEC)=DEF.
+
+le 	  D * (^ GEN)=MAS 
+	      (^ NUM)=SG
+	      (^ SPEC)=DEF.
+
+les 	  D * (^ NUM)=PL
+	      (^ SPEC)=DEF.
+
+cette 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ SPEC)=DEM.
+
+ces 	  D * (^ NUM)=PL
+	      (^ SPEC)=DEM.
+
+son 	  D * (^ GEN)=MAS
+	      (^ NUM)=SG
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+sa 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+ses 	  D * (^ NUM)=PL
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+
+----

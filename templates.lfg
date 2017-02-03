@@ -1,0 +1,164 @@
+BASIC   FRENCH   TEMPLATES (1.0)
+
+"test"
+
+   T1(M W) = (^ M) = W.
+"templates for verbs"
+
+"active and passive"
+   ACT = (^ PASSIVE) = -.
+   PASS = (^ PASSIVE) =c +.
+
+   "mood"
+
+   IND = (^ MOOD)=IND.
+   SBJV = (^ MOOD)=SUBJUNCT.
+
+   "tense and verb form in active voice"
+   "these templates are for use in the entries for morphological tags only"
+   "@ACT not in book's grammar"
+   PRS = (^ TENSE)=PRES @ACT.
+   PST = (^ TENSE) = SIMPLE_PAST @ACT.
+   FUT = (^ TENSE) = FUT @ACT.
+   IMPF = (^ TENSE) = IMPERF @ACT.
+
+
+   PPAST = (^ VFORM)=PART_PAST @ACT. 
+   INF = (^ VFORM)= INF @ACT. 
+
+   "agreement"
+   V-AGR(P N) = (^ SUBJ PERS) = P
+	  (^ SUBJ NUM) = N.
+   E-FORM-V = { @(V-AGR 1 SG) | @(V-AGR 3 SG)}
+	  { @IND | @SBJV}
+	  @PRS.
+   "control"
+   CTRL(F) = (^ XCOMP SUBJ) = (^ F).
+   S-CTRL = @(CTRL SUBJ).
+   DO-CTRL = @(CTRL OBJ).
+   IO-CTRL = @(CTRL OBJ2).
+
+   "grammatical functions"
+   "obliques"
+   "OBL(P) = " "TODO"
+   "infinitival complements"
+   BARE-INF = ~ (^ XCOMP CFORM)
+	  (^ XCOMP VFORM) =c INF.
+   C-INF(C) = (^ XCOMP CFORM) =c C.
+
+   "valency"
+   "basic"
+   INTRANS(P) = (^ PRED) = 'P<(^ SUBJ)>'.
+   TRANS(P) = (^ PRED) = 'P<(^ SUBJ)(^ OBJ)>' 
+	  (^ AUX)=AVOIR. 
+   DITRANS(P) = (^ PRED) = 'P<(^ SUBJ)(^ OBJ)(^ OBJ2)>'
+	  (^ AUX) = AVOIR.
+   OPT-DITRANS(P) = { @(DITRANS P) | @(TRANS P) }.
+   OPT-TRANS(P) = { @(UNERG_V P) | @(TRANS P) }.
+
+   "unaccusatives and unergatives"
+   UNACC_V(P) = @(INTRANS P)
+	  (^ UNACC)=+
+	  @ACT
+	  (^ AUX)=ÊTRE.
+
+   UNERG_V(P) = @(INTRANS P)
+	  (^ UNACC)= -
+	  @ACT
+	  (^ AUX)=AVOIR.
+
+   "naive passive rule"
+   PASS-TRANS(P G N) = { (^ PRED)='P<(^ OBL)(^ SUBJ)>'
+	    (^ OBL CASE)=c PAR |
+	    (^ PRED)='P< NULL (^ SUBJ)>'}
+	  (^ VFORM)=PART_PASS
+	  (^ SUBJ GEN)=G
+	  (^ SUBJ NUM)=N.
+
+   "passive rule"
+
+   PASSIVE(_SCHEMATA) = _SCHEMATA
+	  (^ VFORM) = PART_PASS
+	  (^ OBJ) --> (^ SUBJ)
+	  { (^ SUBJ) --> NULL 
+	   |(^ SUBJ) --> (^ OBL)
+	    (^ OBL CASE) =c PAR}.
+
+   "verbs governing XCOMP"
+   CTRL-V(P) = (^ PRED) = 'P<(^ SUBJ)(^ XCOMP)>'
+	  @S-CTRL
+	  @BARE-INF.
+   CTRL-V-C(P C) = (^ PRED) = 'P<(^ SUBJ)(^ XCOMP)>'
+	  @S-CTRL
+	  @(C-INF C).
+   DO-CTRL-V(P) = (^ PRED) = 'P<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	  @DO-CTRL
+	  @BARE-INF.
+   DO-CTRL-V-C(P C) = @DO-CTRL
+	  @(C-INF C)
+	  (^ PRED) = 'P<(^ SUBJ)(^ OBJ)(^ XCOMP)>'.
+   IO-CTRL-V-C(P C) = (^ PRED) = 'P<(^ SUBJ)(^ OBJ2)(^ XCOMP)>'
+	  @IO-CTRL
+	  @(C-INF C).
+   "COMP mood and clause type"
+   COMP(M C) =(^ COMP MOOD) =c M
+	  (^ COMP CLAUSE_TYPE) =c C.
+   "verbs governing COMP"
+   COMP-V(P M C) = (^ PRED) = 'P<(^ SUBJ)(^ COMP)>'
+	  @(COMP M C).
+   COMP-IO-V(P M C) = @(COMP M C)
+	  (^ PRED) = 'P<(^ SUBJ)(^ OBJ2)(^ COMP)>'.
+   COMP-PP-V(P F M C) = (^ PRED) = 'P<(^ SUBJ)(^ F)(^ COMP)>'
+	  @(COMP M C).
+
+   "verb classes"
+   MODAL(P M C) = { @(CTRL-V P) | @(COMP-V P M C) }.
+   DIRECTIVE(P F C) = (^ PRED) = 'P<(^ SUBJ)(^ F)(^ XCOMP)>'
+	  @(CTRL F)
+	  @(C-INF C).
+"templates for adjectives"
+   A-AGR(G N) = (^ SUBJ GEN) = G
+	  (^ SUBJ NUM) = N.
+
+   F = (^ GEN)=FEM.
+   M = (^ GEN)=MAS.
+   SG = (^ NUM)=SG.
+   PL = (^ NUM)=PL.
+   N(P) = (^ PRED)='P'.
+
+   F-SG(P) = @(N P)
+	  @F 
+	  @SG.
+   F-PL(P) = @(N P)
+	  @F
+	  @PL.
+   M-SG(P) = @(N P)
+	  @M
+	  @SG.
+   M-PL(P) = @(N P)
+	  @M
+	  @PL.
+
+"templates for adjectives"
+   A(P G N) = (^ PRED) = 'P<(^ SUBJ)>'
+	  @(A-AGR G N).
+   ATT = (^ ATYPE) = ATTRIB.
+   PRED = (^ ATYPE) = PREDIC.
+   PRE = (^ POSITION) = PRENOM.
+   POST = (^ POSITION) = POSTNOM.
+   ATT-PRE = @(IFF @ATT @PRE).
+   ATT-POST = @(IFF @ATT @POST).
+   COLOUR = @ATT-POST.
+   GEO = @COLOUR.
+   "REL(P G N) = @(A P G N)
+	  @ATT
+	  @POST."
+   REL = @ATT
+	 @POST.
+   GL(G) = (^ GLOSS TRANS DEU) = G.
+   AMB(G1 G2) = { @ATT @PRE @(GL G1) |
+	    @ATT-POST @(GL G2)}.
+   A-PRE = @ATT
+	  @PRE.
+
+----

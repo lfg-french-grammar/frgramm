@@ -1,0 +1,48 @@
+BASIC FRENCH LEXICON (1.0)
+
+
+je 	  CL * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=1
+	       (^ CASE)=NOM.
+
+tu 	  CL * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=2
+	       (^ CASE)=NOM.
+
+elle 	  CL * (^ PRED)='PRO'
+	       (^ GEN)=FEM
+	       (^ NUM)=SG
+	       (^ PERS)=3
+	       (^ CASE)=NOM.
+
+il 	  CL * { (^ PRED)='PRO' | (^ FORM) = IL}
+	       (^ GEN)=MAS
+	       (^ NUM)=SG
+	       (^ PERS)=3
+	       (^ CASE)=NOM.
+
+nous 	  CL * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=1
+	       (^ CASE)=NOM.
+
+vous 	  CL * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=2
+	       (^ CASE)=NOM.
+
+ils 	  CL * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=3
+	       (^ CASE)=NOM.
+
+elles 	  CL * (^ PRED)='PRO'
+	       (^ GEN)=FEM
+	       (^ NUM)=PL
+	       (^ PERS)=3
+	       (^ CASE)=NOM.
+
+
+----

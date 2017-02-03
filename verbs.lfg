@@ -1,0 +1,293 @@
+BASIC FRENCH LEXICON (1.0)
+
+"for use with verbs.fst"
+"être 	  V XLE (^ PRED)='ÊTRE<(^ XCOMP)>(^ SUBJ)'
+		(^ SUBJ)=(^ XCOMP SUBJ)
+		@(CAT (^ XCOMP) {AP PP});
+	  Aux XLE { (^ CHECK PASS) = +_
+		    (^ PASSIVE) =c +| 
+		    (^ VFORM) =c PART_PAST
+		    (^ AUX) =c ÊTRE
+		    (^ CHECK ETRE) = +_
+		    (^ UNACC) = +
+		    (^ TENSE)=COMPOUND_PAST}."
+
+est 	  V * (^ PRED)='ÊTRE<(^ XCOMP)>(^ SUBJ)'
+	      (^ SUBJ)=(^ XCOMP SUBJ)
+	      @(CAT (^ XCOMP) {AP PP})
+	      (^ TENSE)=PRES
+	      @(V-AGR 3 SG)
+	      @IND; 
+	  Aux * { 
+		  (^ CHECK PASS) = +_
+		  (^ PASSIVE) =c +
+		  (^ TENSE)=PRES| 
+		  (^ VFORM) =c PART_PAST
+		  (^ AUX) =c ÊTRE
+		  (^ CHECK ETRE) = +_
+		  (^ UNACC) = +
+		  (^ TENSE)=COMPOUND_PAST}
+		@(V-AGR 3 SG)
+		@IND.
+
+
+été 	  V * (^ PRED)='ÊTRE<(^ XCOMP)>(^ SUBJ)'
+	      (^ SUBJ)=(^ XCOMP SUBJ)
+	      @(CAT (^ XCOMP) {AP PP})
+	      (^ AUX) = AVOIR
+	      (^ VFORM) = PART_PAST;
+	  Aux *
+ 	      (^ PASSIVE) =c + 
+ 	      (^ CHECK PASS) = +_
+ 	      (^ AUX) = AVOIR
+ 	      (^ VFORM) = PART_PAST
+ 	      (^ CHECK ETRE) = +_.
+
+être 	  V * (^ PRED)='ÊTRE<(^ XCOMP)>(^ SUBJ)'
+	      (^ SUBJ)=(^ XCOMP SUBJ)
+	      @(CAT (^ XCOMP) {AP PP})
+	      (^ VFORM) = INF;
+	  Aux *
+ 	      (^ PASSIVE) =c + 
+ 	      (^ CHECK PASS) = +_
+	      (^ VFORM) = INF
+	      (^ CHECK ETRE) = +_.
+
+sont 	  V * (^ PRED)='ÊTRE<(^ XCOMP)>(^ SUBJ)'
+	      (^ SUBJ)=(^ XCOMP SUBJ)
+	      @(CAT (^ XCOMP) {AP PP})
+	      (^ TENSE)=PRES
+	      @(V-AGR 3 PL)
+	      @IND; 
+	  Aux * { 
+		  (^ CHECK PASS) = +_
+		  (^ PASSIVE) =c +
+		  (^ TENSE)=PRES| 
+		  (^ VFORM) =c PART_PAST
+		  (^ AUX) =c ÊTRE
+		  (^ CHECK ETRE) = +_
+		  (^ UNACC) = +
+		  (^ TENSE)=COMPOUND_PAST}
+		@(V-AGR 3 PL)
+		@IND.
+
+a 	  V * (^ PRED)='AVOIR<(^ SUBJ)(^ OBJ)>'
+	      (^ TENSE)=PRES
+	      @(V-AGR 3 SG)
+	      @IND;
+	  Aux * 
+ 	      (^ AUX) =c AVOIR
+ 	      (^ VFORM) =c PART_PAST
+	      (^ TENSE)=COMPOUND_PAST
+	      (^ CHECK AVOIR) = +_
+	      @(V-AGR 3 SG)
+	      @IND.
+
+
+ont 	   V * (^ PRED)='AVOIR<(^ SUBJ)(^ OBJ)>'
+	      (^ TENSE)=PRES
+	      @(V-AGR 3 PL)
+	      @IND;
+	  Aux * 
+ 	      (^ AUX) =c AVOIR
+ 	      (^ VFORM) =c PART_PAST
+	      (^ TENSE)=COMPOUND_PAST
+	      (^ CHECK AVOIR) = +_
+	      @(V-AGR 3 PL)
+	      @IND.
+
+attendu   V * { { (^ PRED)='ATTENDRE<(^ OBL)(^ SUBJ)>'
+		  (^ OBL CASE)=c PAR |
+		  (^ PRED)='ATTENDRE<NULL (^ SUBJ)>'}
+		(^ PASSIVE)= +
+		(^ SUBJ GEN)=MAS
+		(^ SUBJ NUM)=SG |
+		@(OPT-TRANS ATTENDRE)
+		(^ VFORM) = PART_PAST
+		(^ AUX) = AVOIR}.
+
+attendue  V * { { (^ PRED)='ATTENDRE<(^ OBL)(^ SUBJ)>'
+		  (^ OBL CASE)=c PAR |
+		  (^ PRED)='ATTENDRE<NULL (^ SUBJ)>'}
+		(^ PASSIVE)=+
+		(^ SUBJ GEN)=FEM
+		(^ SUBJ NUM)=SG | 
+		@(OPT-TRANS ATTENDRE)
+		(^ VFORM) = PART_PAST
+		(^ AUX) = AVOIR
+		(^ UNACC)=c +}.
+
+"habité   V * { (^ PRED)='HABITER<(^ OBL)(^ SUBJ)>'
+		(^ OBL CASE)=c PAR |
+		(^ PRED)='HABITER< NULL (^ SUBJ)>'}
+	      (^ VFORM)=PART_PASS
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG."
+
+	      
+attend 	  V * { (^ PRED)='ATTENDRE<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ATTENDRE<(^ SUBJ)>'}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+attende   V * { (^ PRED)='ATTENDRE<(^ SUBJ)>'|(^ PRED)='ATTENDRE<(^ SUBJ)(^ OBJ)>'}
+	      (^ SUBJ NUM)=SG
+	      { (^ SUBJ PERS)=3 |
+		(^ SUBJ PERS)=1}
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+attendent V * { (^ PRED)='ATTENDRE<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ATTENDRE<(^ SUBJ)>'}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=PL
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND. "TODO: all inflected verbs should have these two features"
+
+attendre  V * { (^ PRED)='ATTENDRE<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ATTENDRE<(^ SUBJ)>'}
+	      (^ VFORM)=INF.
+
+combattre V * (^ PRED)='COMBATTRE<(^ SUBJ)(^ OBJ)>'
+	      (^ VFORM)=INF.
+
+rencontre   V * (^ PRED)='RENCONTRER<(^ SUBJ)(^ OBJ)>'
+	      { (^ SUBJ PERS)=1 | (^ SUBJ PERS)=3}
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      {(^ MOOD)=IND | (^ MOOD)=SUBJUNCT}.
+
+
+dépend 	  V * (^ PRED)='DÉPENDRE<(^ SUBJ)(^ OBL)>'
+	      (^ OBL CASE)=c DE
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+
+pleut 	  V * (^ PRED)='PLEUVOIR<>(^ SUBJ)'
+	      (^ SUBJ FORM)=c IL
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+"(^ SUBJ PRON-TYPE)=c EXPL"
+"pleut 	  V * (^ PRED)='PLEUVOIR<>(^ SUBJ)'
+	      ~ (^ SUBJ PRED)
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG."
+
+doit 	  V * @(CTRL-V DEVOIR)
+	      @(V-AGR 3 SG)
+	      @IND
+	      @PRS.
+
+	      
+veut 	  V * { "(^ PRED)='VOULOIR<(^ SUBJ)(^ XCOMP)>'"
+		"(^ XCOMP SUBJ)=(^ SUBJ)"
+		@(CTRL-V VOULOIR)
+		"~ (^ XCOMP CFORM)"
+		"(^ XCOMP VFORM) =c INF" "TODO: check if only (^ XCOMP VFORM) excludes AP and PP XCOMPs"
+	       |
+		(^ PRED)='VOULOIR<(^ SUBJ)(^ COMP)>'
+		(^ COMP MOOD) =c SUBJUNCT
+		(^ COMP CLAUSE_TYPE) ="c" DECLAR} "TODO: check if =c is really necessary; OK: no"
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+croit 	  V * (^ PRED)='CROIRE<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM) 
+	      (^ XCOMP VFORM) =c INF
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+croire 	  V * (^ PRED)='CROIRE<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM) 
+	      (^ XCOMP VFORM) =c INF
+	      (^ VFORM)=INF.
+
+
+voit 	  V * { (^ PRED)='VOIR<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='VOIR<(^ SUBJ)(^ OBJ)>' }
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+voir 	  V * { (^ PRED)='VOIR<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='VOIR<(^ SUBJ)(^ OBJ)>' }
+	      (^ VFORM)=INF.
+
+pouvoir   V * (^ PRED)='POUVOIR<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM)
+	      (^ XCOMP VFORM) =c INF
+	      (^ VFORM)=INF.
+
+entendre 	  V * { (^ PRED)='ENTENDRE<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='ENTENDRE<(^ SUBJ)(^ OBJ)>' }
+	      (^ VFORM)=INF.
+
+entend 	  V * { (^ PRED)='ENTENDRE<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='ENTENDRE<(^ SUBJ)(^ OBJ)>' }
+	      @IND
+	      @PRS
+	      @(V-AGR 3 SG).
+
+
+défend 	  V * @(DIRECTIVE DÉFENDRE OBJ2 DE) "@(IO-CTRL-V-C DÉFENDRE DE)"
+	      @(V-AGR 3 SG)
+	      @PRS
+	      @IND.
+
+permet 	  V * { @(DIRECTIVE PERMETTRE OBJ2 DE) |
+		@(COMP-V PERMETTRE SUBJUNCT DECLAR)}
+	      { @(V-AGR 3 SG) | @(V-AGR 1 SG)}
+	      @PRS
+	      @IND.
+
+sait 	  V * (^ PRED)='SAVOIR<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) =c IND
+	      "(^ COMP CLAUSE_TYPE) =c DECLAR" "underspecified"
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+sache 	  V * (^ PRED)='SAVOIR<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) =c IND
+	      "(^ COMP CLAUSE_TYPE) =c DECLAR" "underspecified"
+	      (^ SUBJ NUM)=SG
+	      { (^ SUBJ PERS)=1 |
+		(^ SUBJ PERS)=3}
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+
+----

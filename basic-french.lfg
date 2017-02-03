@@ -1,0 +1,29 @@
+BASIC   FRENCH   CONFIG (1.0)
+  ROOTCAT   Root. 
+  FILES adjectives.lfg
+  adverbs.lfg
+  clitics.lfg
+  complementizers.lfg
+  determiners.lfg
+  homonyms.lfg
+  morphology.lfg
+  nouns.lfg
+  pargram.templates.lfg
+  prepositions.lfg
+  punctuation.lfg
+  rules.lfg
+  sublexical-rules.lfg
+  templates.lfg
+  verbs.lfg
+  lemmas.lfg
+  tags.lfg.
+  LEXENTRIES  (BASIC FRENCH) (LEMMAS FRENCH).
+  RULES   (BASIC FRENCH).
+  MORPHOLOGY (BASIC FRENCH).
+  TEMPLATES (BASIC FRENCH) (PARGRAM ENGLISH).
+  GOVERNABLERELATIONS SUBJ OBJ OBJ2 OBL COMP XCOMP.
+  SEMANTICFUNCTIONS ADJ.
+  CHARACTERENCODING utf-8.
+
+----
+

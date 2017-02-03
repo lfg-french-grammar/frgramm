@@ -1,0 +1,9 @@
+BASIC FRENCH MORPHOLOGY (1.0)
+
+TOKENIZE:
+fst/basic-tokenizer.fst 
+
+ANALYZE:
+fst/group-1.fst
+
+----

@@ -1,0 +1,10 @@
+BASIC FRENCH LEXICON (1.0)
+
+que 	  C * (^ TENSE)
+	      (^ CLAUSE_TYPE)=DECLAR.
+
+si 	  C * (^ TENSE)
+	      (^ CLAUSE_TYPE)=INTERR
+	      (^ MOOD) =c IND.
+
+----

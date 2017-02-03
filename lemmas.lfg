@@ -1,0 +1,100 @@
+LEMMAS FRENCH LEXICON (1.0)
+
+arriver   V XLE @(UNACC_V ARRIVER).
+
+chanter   V XLE @(UNERG_V CHANTER).
+
+danser 	  V XLE @(UNERG_V DANSER).
+
+marcher   V XLE @(UNERG_V MARCHER).
+
+pleurer   V XLE @(UNERG_V PLEURER).
+
+manger 	  V XLE @(PASSIVE @(OPT-TRANS MANGER))
+		"(^ UNACC)=-
+		(^ AUX)=AVOIR".
+
+épeler 	  V XLE @(PASSIVE @(TRANS ÉPELER)) 
+		"(^ AUX)=AVOIR".
+
+achever   V XLE @(PASSIVE @(TRANS ACHEVER)).
+
+chercher   V XLE @(PASSIVE @(TRANS CHERCHER))
+		"(^ AUX)=AVOIR".
+
+habiter   V XLE @(PASSIVE @(TRANS HABITER)).
+
+morceler  V XLE @(PASSIVE @(TRANS MORCELER)).
+
+peler 	  V XLE @(PASSIVE @(TRANS PELER)).
+
+raconter V XLE @(PASSIVE @(TRANS RACONTER)).
+
+regarder V XLE @(PASSIVE @(TRANS REGARDER)).
+
+répéter   V XLE @(PASSIVE @(TRANS RÉPÉTER)).
+
+donner 	  V XLE @(PASSIVE @(OPT-DITRANS DONNER)).
+
+acheter   V XLE @(PASSIVE @(OPT-DITRANS ACHETER)). 
+
+annoncer  V XLE { @(PASSIVE @(OPT-DITRANS ANNONCER)) |
+		  @(COMP-V ANNONCER IND DECLAR) |
+		  @(COMP-IO-V ANNONCER IND DECLAR)}
+		(^ AUX)=AVOIR.
+
+demander  V XLE { @(DIRECTIVE DEMANDER OBJ2 DE) | 
+		  @(CTRL-V-C DEMANDER À) | 
+		  @(PASSIVE @(DITRANS DEMANDER)) |
+		  @(COMP-V DEMANDER SUBJUNCT DECLAR) |
+		  @(COMP-IO-V DEMANDER IND INTERR) }
+		(^ AUX)=AVOIR.
+
+forcer 	  V XLE @(PASSIVE @(DIRECTIVE FORCER OBJ À))
+		(^ AUX)=AVOIR.
+
+sembler   V XLE (^ PRED)='SEMBLER<(^ SUBJ)(^ XCOMP)>'
+		(^ SUBJ)=(^ XCOMP SUBJ)
+		@(CAT (^ XCOMP) AP)
+		(^ AUX)=AVOIR.
+
+passer 	  V XLE { @(INTRANS PASSER) | "TODO: @(UNACC PASSER)"
+		  (^ PRED)='PASSER<(^ OBJ)>(^ SUBJ)'
+		  (^ SUBJ FORM)=c IL
+		  @(V-AGR 3 SG)} "TODO: include (^ UNACC)=- ?"
+		(^ AUX)=ÊTRE. "TODO: check this"
+
+cesser 	  V XLE @(CTRL-V-C CESSER DE)
+		(^ AUX)=AVOIR.
+
+commencer  V XLE  @(CTRL-V-C COMMENCER À)
+	      (^ AUX)=AVOIR.
+
+continuer V XLE @(CTRL-V-C CONTINUER À)
+		(^ AUX)=AVOIR.
+
+écouter   V XLE @(PASSIVE @(DO-CTRL-V ÉCOUTER))
+	      (^ AUX)=AVOIR.
+
+inviter   V XLE @(PASSIVE @(DIRECTIVE INVITER OBJ À))
+		(^ AUX)=AVOIR.
+
+pousser   V XLE @(PASSIVE @(DIRECTIVE POUSSER OBJ À))
+		(^ AUX)=AVOIR.
+
+implorer   V XLE @(PASSIVE @(DIRECTIVE IMPLORER OBJ DE))
+	      (^ AUX)=AVOIR.
+
+prier   V XLE @(PASSIVE @(DIRECTIVE PRIER OBJ DE))
+	      (^ AUX)=AVOIR.
+
+exiger 	  V XLE { @(COMP-V EXIGER SUBJUNCT DECLAR) |
+		  @(CTRL-V-C EXIGER DE) |
+		  @(DITRANS EXIGER) }
+		(^ AUX)=AVOIR.
+
+ordonner   V XLE @(DIRECTIVE ORDONNER OBJ2 DE)
+	      (^ AUX)=AVOIR.
+
+
+----

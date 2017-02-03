@@ -1,0 +1,28 @@
+BASIC FRENCH LEXICON (1.0)
+
+dans 	  P * (^ PRED)='DANS<(^ SUBJ)(^ OBJ)>'.
+
+le` long` de P * (^ PRED)='LE` LONG` DE<(^ SUBJ)(^ OBJ)>'.
+
+au-delà` de P * (^ PRED)='AU-DELÀ` DE<(^ SUBJ)(^ OBJ)>'.
+
+à` travers P * (^ PRED)='À` TRAVERS<(^ SUBJ)(^ OBJ)>'.
+
+par 	  P * (^ CASE)=PAR.
+
+
+au 	  PA * (^ CASE)=À
+	       (^ SPEC)=DEF
+	       (^ GEN)=MAS
+	       (^ NUM)=SG.
+
+aux 	  PA * (^ CASE)=À
+	       (^ SPEC)=DEF
+	       (^ NUM)=PL.
+
+au-delà` du PA * (^ PRED)='AU-DELÀ` DE<(^ SUBJ)(^ OBJ)>'
+		 (^ SPEC)=DEF
+		 (^ GEN)=MAS
+		 (^ NUM)=SG.
+
+----

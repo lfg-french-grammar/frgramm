@@ -1,0 +1,168 @@
+BASIC FRENCH LEXICON (1.0)
+
+"nouns"
+
+"fée 	  N * (^ PRED)='FÉE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+fées 	  N * (^ PRED)='FÉE'
+	      (^ GEN)=FEM
+	      (^ NUM)=PL."
+
+pêche 	  N * @(F-SG PÊCHE).
+
+pêches 	  N * @(F-PL PÊCHE).
+
+tâche 	  N * @(F-SG TÂCHE).
+
+terre 	  N * @(F-SG TERRE).
+
+nouvelle  N * @(F-SG NOUVELLE).
+
+nouvelles  N * @(F-PL NOUVELLE).
+
+nom 	  N * @(M-SG NOM).
+
+repas 	  N * @(M-SG REPAS).
+
+fée 	  N * @(F-SG FÉE)
+	      "@(T1 ANIM SORT)".
+
+fées 	  N * @(F-PL FÉE).
+
+rivière   N * (^ PRED)='RIVIÈRE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+histoire   N * (^ PRED)='HISTOIRE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+histoires   N * (^ PRED)='HISTOIRE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=PL.
+
+chemise   N * (^ PRED)='CHEMISE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+chemises  N * (^ PRED)='CHEMISE'
+	      (^ GEN)=FEM
+	      (^ NUM)=PL.
+
+"chevalier N * (^ PRED)='CHEVALIER'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+chevaliers N * (^ PRED)='CHEVALIER'
+	       (^ GEN)=MAS 
+	       (^ NUM)=PL."
+
+chevalier N * @(M-SG CHEVALIER).
+
+chevaliers N * @(M-PL CHEVALIER).
+
+"couvent N * (^ PRED)='COUVENT'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG."
+
+couvent   N * (^ PRED)='COUVENT'
+	      @M
+	      @SG.
+
+bois N * (^ PRED)='BOIS'
+	      (^ GEN)=MAS.
+
+château N * (^ PRED)='CHÂTEAU'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+châteaux N * (^ PRED)='CHÂTEAU'
+	       (^ GEN)=MAS 
+	       (^ NUM)=PL.
+
+
+nain N * (^ PRED)='NAIN'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+joyaux 	  N * (^ PRED)='JOYAU'
+	      (^ GEN)=MAS 
+	      (^ NUM)=PL.
+
+géant 	  N * (^ PRED)='GÉANT'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+foulard   N * (^ PRED)='FOULARD'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+gant   N * (^ PRED)='GANT'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+livre   N * (^ PRED)='LIVRE'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+livres   N * (^ PRED)='LIVRE'
+	      (^ GEN)=MAS 
+	      (^ NUM)=PL.
+
+rossignol N * (^ PRED)='ROSSIGNOL'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+pont N * (^ PRED)='PONT'
+	      (^ GEN)=MAS 
+	      (^ NUM)=SG.
+
+
+campagne  N * (^ PRED)='CAMPAGNE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+dame 	  N * (^ PRED)='DAME'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+dames 	  N * (^ PRED)='DAME'
+	      (^ GEN)=FEM 
+	      (^ NUM)=PL.
+
+bague 	  N * (^ PRED)='BAGUE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+bagues 	  N * (^ PRED)='BAGUE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=PL.
+
+forêt 	  N * (^ PRED)='FORÊT'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+reine 	  N * (^ PRED)='REINE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=SG.
+
+"reines 	  N * (^ PRED)='REINE'
+	      (^ GEN)=FEM 
+	      (^ NUM)=PL."
+
+reines 	  N * (^ PRED)='REINE'
+	      @F
+	      @PL.
+
+chambre   N * (^ PRED)='CHAMBRE'
+	      (^ GEN)=FEM
+	      (^ NUM)=SG. 
+
+poche   N * (^ PRED)='POCHE'
+	      (^ GEN)=FEM
+	      (^ NUM)=SG. 
+
+
+----

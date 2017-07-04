@@ -17,9 +17,9 @@ http://web.stanford.edu/~laurik/fsmbook/home.html
 
 You can download the source files of both transducers from here:
 
-https://github.com/lfg-french-grammar/book/chapter6
+https://github.com/lfg-french-grammar/lesson6
 
-https://github.com/lfg-french-grammar/book/chapter7
+https://github.com/lfg-french-grammar/lesson7
 
 The finite-state transducers must be compiled with XFST in the operating system where you are running XLE. Edit the respective path in the morphology.lfg file to point to the location of each transducer file in your system.
 

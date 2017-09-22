@@ -1,4 +1,3 @@
-# frgramm
 FrGramm - a lexical-functional grammar fragment of French https://github.com/lfg-french-grammar/frgramm
 
 Author: Leonel F. de Alencar leonel.de.alencar@ufc.br
@@ -7,7 +6,7 @@ Copyright (C) 2016-2017 Leonel F. de Alencar
 
 License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). For more information, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-FrGramm is a computational grammar fragment of French in the LFG formalism. It is implemented in the Xerox Linguistic Environment - XLE. To compile a parser from the grammar and parse sentences in French, you first need XLE: 
+FrGramm is a computational grammar fragment of French in the LFG formalism. It is implemented in the Xerox Linguistic Environment - XLE. To compile a parser from the grammar and parse sentences in French, you first need XLE:
 
 http://www2.parc.com/isl/groups/nltt/xle/
 
@@ -32,8 +31,27 @@ For more information on this book, visit
 http://lfg-book.blogspot.com.br/2016/01/new-lfg-books-abstract.html 
 http://linguistlist.org/issues/27/27-761.html
 
-If you publish work that uses FrGramm, please cite the following paper:
+If you publish work that uses FrGramm, please cite the following paper, which was published bilingually in both English and Portuguese:
 
-Alencar, Leonel Figueiredo de (2017). A computational implementation of periphrastic verb constructions in French. Alfa, Rev. Linguíst. (São José Rio Preto), 61. To appear. http://www.scielo.br/scielo.php?script=sci_serial&pid=1981-5794&lng=en&nrm=iso
+ENGLISH VERSION OF THE PAPER
+
+APA style
+
+Alencar, Leonel Figueiredo de (2017). A computational implementation of periphrastic verb constructions in French. Alfa, 61 (2), 437-466.
+
+ABNT style
+
+Alencar, Leonel Figueiredo de. A computational implementation of periphrastic verb constructions in French. Alfa, São Paulo, v. 61, n. 2, p. 437-466, 2017.
+
+PORTUGUESE VERSION OF THE PAPER
+
+APA style
+
+Alencar, Leonel Figueiredo de (2017). Uma implementação computacional de construções verbais perifrásticas em francês. Alfa, 61 (2), 351-380.
+
+ABNT style
+
+Alencar, Leonel Figueiredo de. Uma implementação computacional de construções verbais perifrásticas em francês. Alfa, São Paulo, v. 61, n. 2, p. 351-380, 2017.
+
 
 For bug reports, comments, and suggestions, please write to: leonel.de.alencar@ufc.br
